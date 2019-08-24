@@ -1,0 +1,25 @@
+
+
+git config --global user.name "Namrata Meripo"
+git config --global user.email "namrata.meripo@gmail.com"
+
+Create a new repostiory
+
+git clone https://github.com/NamrataMeripo/pyproject01_nit.git
+cd pyproject01_nit
+touch 20190819-Day1.py
+git add 20190819-Day1.py
+git status
+git commit -m "firstchange"
+git push -u origin master
+
+
+Existing Folder
+
+cd Existing_folder
+git init
+git remote add origin git@gitlab.com://github.com/NamrataMeripo/pyproject01_nit.git
+git add.
+git status
+git commit -m "firstchange"
+git push -u origin master
