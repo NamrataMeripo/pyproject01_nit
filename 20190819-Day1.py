@@ -10,9 +10,9 @@ subject = ("python")
 
 print(msg)
 
-print(created_by)
+print(type(created_by))
 
-print(subject)
+print(type(subject))
 
 
 
