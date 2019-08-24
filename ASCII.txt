@@ -5,4 +5,3 @@ ASCII - American standard code for information interchange
 3) numeric = 48 to 57
 4) uppercase = 65 to 90
 5) lowercase = 97 to 122
-
