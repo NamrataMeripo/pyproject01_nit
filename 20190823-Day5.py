@@ -4,6 +4,9 @@
 
 # Creating variables for python
 
+create =("Variable and commnents")
+print(create)
+
 firstname = 'Guido'
 print(firstname)
 
