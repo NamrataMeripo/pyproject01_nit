@@ -17,15 +17,23 @@ print("branchname")
 
 accountholder = "Namrata Meripo"
 print(len(accountholder))
-print(accountholder * 3)
-
+print(accountholder * 6)
 
 
 # [] - Slicing
 
-accounholder = "Namrata Meripo"
+accountholder = "Namrata Meripo"
+print(accountholder [8])
+print(accountholder [-3])
+print(accountholder [-9])
 
-print(accounholder [8])
+
+# Slicing [ :]
+print(accountholder[9:-5])
+
+
+
+
 
 
 
