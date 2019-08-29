@@ -50,14 +50,14 @@ searchword = "is"
   
 # using find() to find first occurrence of searchword 
 print("The first occurrence of searchword is at : ", end="") 
-#print(linestatement.find(searchword))
-#print (linestatement.rfind(searchword) ) 
+print(linestatement.find(searchword))
+print (linestatement.rfind(searchword) ) 
 
-'''
+
 # using rfind() to find last occurrence of searchword 
 # returns 21 
 print ("The last occurrence of searchword  is at : ", end="") 
-print ( linestatement.rfind( searchword, 4) ) 
+print ( linestatement.rfind( searchword,7) ) 
 
 'Starts with is True or False'
 print(linestatement.startswith('is'))
@@ -66,7 +66,7 @@ print(linestatement.startswith('is'))
 print(linestatement.endswith('phrase'))
 
 
-'''
+
 
 
 
