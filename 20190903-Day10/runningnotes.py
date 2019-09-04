@@ -43,8 +43,10 @@ print(thirdsortnames)
 '''
 
 # Insert
-oneinsert = ['Guido','Van','1', '$',"R"]
+oneinsert = ['Guido','Van',1,2,"R"]
 twoinsert = ["Rossum"]
-print(oneinsert.insert(2, "Rossum"))
+print(list(enumerate(oneinsert)))
 
+
+oneinsert.insert(3,"Rossum")
 
