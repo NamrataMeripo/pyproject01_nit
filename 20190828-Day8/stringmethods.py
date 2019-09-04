@@ -37,6 +37,7 @@
 
 
 'rfind -  reverse order --- Index will be captured '
+#cloud ="azure gcp aws kubernetes aws gcp aws kubernetes"
 #print(cloud.find('aws'))
 #print(cloud.rfind('aws'))
 
