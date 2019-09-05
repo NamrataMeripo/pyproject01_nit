@@ -11,7 +11,7 @@ print(list(enumerate(aCoolList)))
 
 # Example 2
 insertnames = ["Guido","Van","Rossum","Python"] 
-insertnumbers = [1,2,3,5,6,8]
+insertnumbers = [41,2,53,25,64,48]
 print(list(enumerate(insertnames)))
 insertnames.insert(1,"Intro")
 print(list(enumerate(insertnames)))
