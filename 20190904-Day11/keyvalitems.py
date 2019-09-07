@@ -14,7 +14,7 @@ print ("")
 print(filename.keys())
 print("")
 
-# copy the data to other variable
+# copy the data  to other variable
 raw_data = filename.copy()
 print(raw_data)
 print("")

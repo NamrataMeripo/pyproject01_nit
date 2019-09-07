@@ -13,5 +13,5 @@ print("")
 print(seq)
 '''
 dict2 = dict.fromkeys(seq)
-print ("Another dictionary : %s" %  str(dict2)) # here % separator  
+print ("Another dictionary : %s" %  str(dict2)) # here % separator 
 
