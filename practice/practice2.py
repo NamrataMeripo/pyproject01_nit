@@ -163,6 +163,7 @@ copycloud = cloudnames.copy()
 print(copycloud)
 '''
 
+'''
 # from keys
 dictnames = {"Sun","Mon","Tues","Wed"}
 keynames = dict.fromkeys(dictnames)
@@ -172,13 +173,24 @@ keynames["Sun"] = "Sunday"
 keynames["Mon"] = "Monday"
 keynames["Tues"] = "Tuesday"
 keynames["Wed"] = "Wednesday"
-print(keynames)
+print(keynames) 
+'''
+keyscreation = {"Jan","Feb","Mar"}
+createkeys = dict.fromkeys(keyscreation)
+print(createkeys)
+print("")
+print(dict(enumerate(createkeys)))
+print("")
 
 
+createkeys["Jan"] = "January"
+createkeys["Feb"] = "February"
+createkeys["Mar"] = "March"
+print(createkeys)
 
 
-
-
-
-
+keysnames = {"Jan","Feb","Mar"}
+copynames = keysnames.copy ()
+print(copynames)
+print(createkeys.keys ())
 
