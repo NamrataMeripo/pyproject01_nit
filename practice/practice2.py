@@ -63,8 +63,7 @@ print(countnumbers.count(64))
 #join  -- list will not have joins.. hence invalid
 '''accountnames = ['_']
 othernames = ['kim','Tim','Bim','Nim']
-accountnames.join(othernames)
-print(accountnames)'''
+print(accountnames.join(othernames))
 
 '''
 # tuple

@@ -10,8 +10,7 @@ print(floataccoutname,type(floataccoutname))
 
 complexaccoutname = 5+6j
 print(complexaccoutname,type(complexaccoutname))
-'''
-'''
+
 # String special characters
 # + addition
 bankdetails ="BOA"
