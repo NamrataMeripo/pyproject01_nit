@@ -50,3 +50,29 @@ print(list(enumerate(oneinsert)))
 
 oneinsert.insert(3,"Rossum")
 
+
+
+values = [3,2,4,1,"Guido","Ron",10.9]
+values.append("Namrata")
+print(values)
+
+values.extend ("Van")
+print(values)
+
+values.insert(3,"Riya")
+print(values)
+
+values.remove(1)
+print(values)
+
+values.pop(2)
+print(values)
+
+values.reverse ()
+print(values)
+
+numbers = [3,2,4,6,7,1,9,3,2,4,2]
+numbers.sort()
+print(numbers)
+
+print(numbers.count(3))

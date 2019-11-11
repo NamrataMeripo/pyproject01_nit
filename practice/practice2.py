@@ -118,9 +118,23 @@ print(tuple(enumerate(tup1)))
 print(tuple(enumerate(tup2)))
 print("tup1 : ", tup1[-3])
 print("tup2 :",tup2[-4])
+'''
 
+'''
+empty
+updating
+delete
+clear entire dictionary
+clear the entries
+get items
+keys 
+getkeys
 
+'''
+
+'''
 # Empty dictionary
+
 cloudpro = {}
 print(cloudpro,len(cloudpro),type(cloudpro),id(cloudpro))
 

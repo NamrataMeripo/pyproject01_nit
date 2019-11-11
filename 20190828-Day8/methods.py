@@ -62,3 +62,28 @@ print(cloud.rfind('aws'))
 'Starts with is True or False'
 
 
+
+
+States = "Georgia","Texas","Ohio","Washington"
+print(States, type(States),id(States),len(States))
+
+
+# capitalize
+# upper
+# lower
+# title 
+# swapcase
+
+myname= "namratameRipo"
+print(myname.capitalize())
+print(myname.upper())
+print(myname.lower())
+print(myname.title())
+print(myname.swapcase())
+print(myname.count('a',1,13))
+print(myname.find('rat',2,13))
+print(myname.rfind('po',1,13))
+print(myname.startswith("namr"))
+print(myname.endswith("ta"))
+
+

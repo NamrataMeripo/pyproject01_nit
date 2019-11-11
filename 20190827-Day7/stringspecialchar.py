@@ -37,3 +37,43 @@ print(accountstatement[0::3])
 print(accountspace[3::2])
 '''
 
+
+# strings
+# +
+# *
+# []
+# [:]
+# [::]
+# raw string r or R
+# %
+# .format ()
+
+'''
+# +
+bankname = "BOA  "
+bankaddress = "SandySprings"
+print(bankname +bankaddress)
+print(bankname,bankaddress)
+
+# *
+statename = "GA "
+print(statename * 3)
+
+'''
+# [] - Slicing
+countryname = "UnitedStatesofAmerica "
+#print(countryname [4])
+#print("")
+print(countryname [3::2])
+
+
+# Remainders
+print("Firstname: %s Middlename: %s Lastname: %s" %("Namrata","M","Meripo"))
+Firstname,Lastname,Middlename,DOB = "Namrata","Meripo","M",3030
+print("Firstname: %s Lastname: %s Middlename %s DOB: %d" %(Firstname,Lastname,Middlename,DOB))
+
+# .format
+print("Firstname {} Middlename {} Lastname {}" .format(Firstname,Middlename,Lastname))
+print(f"Firstname {Firstname} Lastname {Lastname}")
+
+
