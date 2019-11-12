@@ -31,3 +31,20 @@ def van(a,*more) :
 values=van('namrata','nam','sam','mam','dam','tam','vam','kam')
 print(values)
 
+
+
+
+
+def info(val1,*val2) :
+    print(val1)
+    print(val2)
+    print("")
+
+
+    for givenname in val2 :
+        print(givenname)
+    return
+
+info(3,4,5,6,7)
+print("")
+
