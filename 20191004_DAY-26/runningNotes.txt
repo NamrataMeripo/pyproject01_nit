@@ -1,0 +1,22 @@
+Agenda :
+
+1. AWS : 
+    - Lambda 
+    - Python with Boto3 
+
+2. Route53 
+3. Godaddy
+4. EC2 instance with Django Deployment
+
+
+Tomorrow Topics:
+
+1. OOPS
+    1. Class
+    2. Object
+    3. Methods
+    4. Inheritance
+    5. Encapsulation
+    6. Polymorphism
+    7. Private Varaibles & Private Methods 
+    

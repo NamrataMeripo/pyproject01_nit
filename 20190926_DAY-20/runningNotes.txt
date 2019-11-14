@@ -1,0 +1,25 @@
+Agenda :
+
+1. CGI 
+&
+2. RegEx 
+
+CGI Programming with Python:
+
+CGI - Common Gateway Interface
+
+Operating 
+
+
+
+WebApplication : 
+
+    - Client Side Scripting/Programming - html, css , js etc..
+    - Server Side Scripting/Programming - Java, .net, nodejs, python 
+
+    - Client Side Scripting/Programming - html (index.html)
+    - Server Side Scripting/Programming - python (checkbox.html)
+                                        - Database
+                                        - SMTP 
+
+

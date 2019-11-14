@@ -1,15 +1,16 @@
-
 #!/usr/bin/python
 import smtplib
 
-gmail_user = 'm.namrata05@gmail.com'
-password = 'Namrata@1983'
+gmail_user = 'dev.keshavkummari@gmail.com'
+gmail_password = 'Python@12345'
 
-from_1 = gmail_user
-to : ['namrata.meripo@gmail.com']
-subject : 'sending hello note'
-body : ' Hi How are you?'
+from_1=gmail_user
 
+to = ['keshav.kummari@gmail.com']
+
+subject = 'Sending Email using GMAIL Mail Server-KeshavKummari'
+
+body = 'Hi, \n  This is a Email Test \n Thanks, \nRoot.'
 
 email_text = """\
 From: %s
@@ -22,7 +23,7 @@ Subject: %s
 try:
     server = smtplib.SMTP_SSL('smtp.gmail.com', 587)
     server.ehlo()
-    server.login(gmail_user, password)
+    server.login(gmail_user, gmail_password)
     server.sendmail(from_1, to, email_text)
     server.close()
     print ('Email has been sent!')

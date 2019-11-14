@@ -1,0 +1,103 @@
+Agenda : 
+
+WebFramework :
+
+1. Django  
+
+Code, Build, and Deploy a WebApplication of Python 
+
+1. Django
+2. Flask
+3. Disel
+
+#-----------------------------------------------------------#
+Django : Web Applications / WebSites :
+#-----------------------------------------------------------#
+1. Django is a WebFramework and it is writen in Python
+
+2. A Web Framework is a software that supports the developement of Dynamic WebSites, Applciations, and Services.
+
+3. Web Framework Functionalities :
+	1. Security Features
+	2. Database Access
+	3. Sessions
+	4. Template Processing
+	5. URL Routing
+	6. Internationalization
+	7. Localization and Much more.....
+
+4. Web Framework such a Django, enables us to develop secure and reliable Web Applications very quickly in a standardized way,
+without having to reinvent the wheel.
+
+#-----------------------------------------------------------#
+Who's Using Django?
+#-----------------------------------------------------------#
+
+1. Instagram
+2. Disqus
+3. Mozilla
+4. Bitbucket
+5. Last.fm
+6. National Geographic
+
+#-----------------------------------------------------------#
+Download, Install & Configure Django on Operating Systems :
+#-----------------------------------------------------------#
+
+1. Windows
+2. MacOS
+3. Linux
+4. Unix
+
+python3.6 --version 
+
+pip3.6 --version 
+
+pip3.6 install Django
+
+django-admin --version 
+
+
+506  python3.6 --version 
+  507  pip3.6 --version
+  508  django-admin --version
+  509  pip3.6 install django
+  510  django-admin --version
+  511  python -m django --version
+  512  python3.6 -m django --version
+
+# Creating a Django Project 
+
+Project Name : kkummari 
+
+Keshavs-MacBook-Pro:20191003_DAY-25 keshavkummari$ django-admin startproject kkummari
+Keshavs-MacBook-Pro:20191003_DAY-25 keshavkummari$ 
+Keshavs-MacBook-Pro:20191003_DAY-25 keshavkummari$ pwd
+/Users/keshavkummari/pyproject01_nit/20191003_DAY-25
+Keshavs-MacBook-Pro:20191003_DAY-25 keshavkummari$ ls -lrta
+total 8
+drwxr-xr-x  37 keshavkummari  staff  1184  3 Oct 06:07 ..
+-rw-r--r--   1 keshavkummari  staff  1624  3 Oct 06:16 runningNotes.txt
+drwxr-xr-x   4 keshavkummari  staff   128  3 Oct 06:17 .
+drwxr-xr-x   4 keshavkummari  staff   128  3 Oct 06:17 kkummari
+Keshavs-MacBook-Pro:20191003_DAY-25 keshavkummari$ ls -ld kkummari/
+drwxr-xr-x  4 keshavkummari  staff  128  3 Oct 06:17 kkummari/
+Keshavs-MacBook-Pro:20191003_DAY-25 keshavkummari$ 
+Keshavs-MacBook-Pro:20191003_DAY-25 keshavkummari$ ls -lrta kkummari/
+total 8
+drwxr-xr-x  4 keshavkummari  staff  128  3 Oct 06:17 ..
+-rwxr-xr-x  1 keshavkummari  staff  628  3 Oct 06:17 manage.py
+drwxr-xr-x  4 keshavkummari  staff  128  3 Oct 06:17 .
+drwxr-xr-x  6 keshavkummari  staff  192  3 Oct 06:17 kkummari
+Keshavs-MacBook-Pro:20191003_DAY-25 keshavkummari$ 
+Keshavs-MacBook-Pro:20191003_DAY-25 keshavkummari$ ls -lrta kkummari/kkummari/
+total 24
+drwxr-xr-x  4 keshavkummari  staff   128  3 Oct 06:17 ..
+-rw-r--r--  1 keshavkummari  staff     0  3 Oct 06:17 __init__.py
+-rw-r--r--  1 keshavkummari  staff   750  3 Oct 06:17 urls.py
+-rw-r--r--  1 keshavkummari  staff   393  3 Oct 06:17 wsgi.py
+drwxr-xr-x  6 keshavkummari  staff   192  3 Oct 06:17 .
+-rw-r--r--  1 keshavkummari  staff  3094  3 Oct 06:17 settings.py
+
+
+

@@ -1,0 +1,6 @@
+<course>  # Parent Element
+    <name_of_the_course>Online Courses</name_of_the_course> # Child Element
+        <course_1>AWS</course_1> # SubChild Element
+
+
+</course>
