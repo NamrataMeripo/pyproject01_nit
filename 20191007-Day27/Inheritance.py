@@ -1,14 +1,12 @@
-
-
 ########### Inheritance
 # Example 5 - Parent class and child class
-'''
+
         # Parent class
 class Bird () :
     def __init__(self,name,age):
         print("Bird is ready")
     def whoisthis(self) :
-        print("Bird")
+        print("Bird flies")
     def swim (self) :
         print("Swim faster")
     
@@ -28,4 +26,4 @@ peggy = Penguin ("Parrot",5)
 peggy.swim ()
 peggy.whoisthis()
 
-'''
+

@@ -1,24 +1,23 @@
+class Car (object):
 
-while True :
-    try :
-        n1 = int(input("Enter n1 :"))
-        n2 = int(input("Enter n2 :"))
-
-        n3 = n1/n2  
-        print("result",n3)
-    except ZeroDivisionError :
-        print("Zero division error")
+    def __init__(self):
+        print("I am in Car instance")
+      
     
-    except ArithmeticError :
-        print("Arithematic error")
-    
-    except SyntaxError :
-        print("Syntax error")
-    
-    else : 
-        print("Go to final statement")
+    def drive(self) :
+        print("I am driving self")
 
-    finally :
+    def stop(self):
+        print("I will stop")
 
-        print("GoodBye")
 
+class Benz(Car) :
+    def __init__(self):
+        Car.__init__(self)
+
+c1 = Car()
+c1.drive ()
+
+b = Benz ()
+b.drive ()
+b.stop ()
